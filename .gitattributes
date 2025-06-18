@@ -1,5 +1,2 @@
-Assets/Firevase/Plugins/x86_64/FirevaseCppApp-12_10_0.bundle filter=lfs diff=lfs merge=lfs -text
-Assets/Firevase/Plugins/x86_64/FirevaseCppApp-12_10_0.so filter=lfs diff=lfs merge=lfs -text
-Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_10_0.so filter=lfs diff=lfs merge=lfs -text
 Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_10_0.so filter=lfs diff=lfs merge=lfs -text
 Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_10_0.bundle filter=lfs diff=lfs merge=lfs -text
