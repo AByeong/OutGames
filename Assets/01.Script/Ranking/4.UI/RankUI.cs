@@ -23,9 +23,9 @@ public class RankUI : MonoBehaviour
    public void Refresh()
    {
 
-      Debug.Log("Refresh");
       
-      Top20s = RankManager.Instance.Ranking;
+      Debug.Log("Refresh");
+       Top20s = RankManager.Instance.Load();
       
       Debug.Log("Top20s Count: " + Top20s.Count);
       for (int i = 0; i < 20; i++)
@@ -37,3 +37,4 @@ public class RankUI : MonoBehaviour
       playerBarUI.Refresh(PlayerDTO.Nickname, PlayerDTO.Score, PlayerDTO.RankNumber);
    }
 }
+//com.skku.ingame

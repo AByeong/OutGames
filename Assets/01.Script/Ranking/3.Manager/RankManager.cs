@@ -52,7 +52,11 @@ public class RankManager : MonoBehaviour
       OnDataChanged?.Invoke();
 
    }
-   
+
+   public List<RankDTO> Load()
+   {
+      return _rankRepository.LoadServerData();
+   }
    public bool TryGetPlayerDto()
    {
 
