@@ -37,7 +37,7 @@ public class RankManager : MonoBehaviour
       //Repo에서 PlayerDTO를 Load 받아옴
       if (!TryGetPlayerDto())
       {
-         PlayerRank = new Rank(0, 0, _account.Nickname); //RankNumber를 처음에 0으로 하는 것에 대해서 논의가 필요함
+         PlayerRank = new Rank(0, "test@test.com", _account.Nickname); //RankNumber를 처음에 0으로 하는 것에 대해서 논의가 필요함
       }
       
       EventManager.AddListener<PlayerDeathEvent>(OnPlayerDeath);

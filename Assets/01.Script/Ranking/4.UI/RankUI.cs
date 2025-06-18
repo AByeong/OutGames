@@ -34,7 +34,7 @@ public class RankUI : MonoBehaviour
       }
 
       PlayerDTO = RankManager.Instance.PlayerRank.ToDTO();
-      playerBarUI.Refresh(PlayerDTO.Nickname, PlayerDTO.Score, PlayerDTO.RankNumber);
+      playerBarUI.Refresh(PlayerDTO.Nickname, PlayerDTO.Score, 0);
    }
 }
 //com.skku.ingame

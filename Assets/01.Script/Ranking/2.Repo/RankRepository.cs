@@ -24,7 +24,7 @@ public class RankRepository
         }
 
         PlayerRank = playerRank;
-        Debug.Log($"{playerRank.Nickname} :: {playerRank.Score}점 / {playerRank.RankNumber}등");
+        Debug.Log($"{playerRank.Nickname} :: {playerRank.Score}점 / {playerRank.Email}등");
         
 
         int playerIndex = RankList.FindIndex(x => x.Nickname == PlayerRank.Nickname);
@@ -67,7 +67,7 @@ public class RankRepository
             ServerSaveData serverSaveData = JsonUtility.FromJson<ServerSaveData>(json);
             foreach (SaveData saveData in serverSaveData.RankList)
             {
-                RankDTO rankDTO = new RankDTO(saveData.Score, saveData.RankNumber, saveData.Nickname);
+                RankDTO rankDTO = new RankDTO(saveData.Score, saveData.Email, saveData.Nickname);
                 loadedData.Add(rankDTO);
             }
         }
@@ -75,7 +75,7 @@ public class RankRepository
         {
             for (int i = 0; i < 30; i++)
             {
-                RankDTO rank = new RankDTO(i * 100, 0, $"Tester{i}");
+                RankDTO rank = new RankDTO(i * 100, "Test#Test.com", $"Tester{i}");
                 loadedData.Add(rank);
             }
         }
@@ -87,13 +87,13 @@ public class RankRepository
 public class SaveData
 {
     public int Score;
-    public int RankNumber;
+    public string Email;
     public string Nickname;
 
     public SaveData (RankDTO rankDTO)
     {
         Score = rankDTO.Score;
-        RankNumber = rankDTO.RankNumber;
+        Email = rankDTO.Email;
         Nickname = rankDTO.Nickname;
     }
 }
@@ -109,7 +109,7 @@ public class ServerSaveData
         for (int i = 0; i < rankList.Count; i++)
         {
             SaveData saveData = new SaveData(rankList[i]);
-            saveData.RankNumber = i + 1;
+            saveData.Email = rankList[i].Email;
             RankList.Add(saveData);
         }
     }

@@ -5,18 +5,18 @@ using UnityEngine;
 public class RankDTO 
 {
    public readonly int Score;
-   public readonly int RankNumber;
+   public readonly string Email;
    public readonly string Nickname;
    
    
-   public RankDTO(int score, int rankNumber, string nickname)
+   public RankDTO(int score, string email, string nickname)
    {
       if (score < 0)
       {
          throw new Exception("점수는 음수가 될 수 없습니다.");
       }
 
-      if (rankNumber < 0)
+      if (string.IsNullOrEmpty(email))
       {
          throw new Exception("점수는 음수가 될 수 없습니다.");
       }
@@ -27,7 +27,7 @@ public class RankDTO
       }
       
       this.Score = score;
-      this.RankNumber = rankNumber;
+      this.Email = email;
       this.Nickname = nickname;
    }
 }

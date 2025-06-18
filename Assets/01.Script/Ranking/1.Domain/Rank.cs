@@ -12,7 +12,7 @@ public class Rank
    private string _nickname;
    public string Nickname => _nickname;
 
-
+   public string Email { get; }
 
    public void AddScore(int amount)
    {
@@ -26,14 +26,14 @@ public class Rank
    
    
    
-   public Rank(int score, int rankNumber, string nickname)
+   public Rank(int score, string email, string nickname)
    {
       if (score < 0)
       {
          throw new Exception("점수는 음수가 될 수 없습니다.");
       }
 
-      if (rankNumber < 0)
+      if (string.IsNullOrEmpty(email))
       {
          throw new Exception("점수는 음수가 될 수 없습니다.");
       }
@@ -44,14 +44,14 @@ public class Rank
       }
       
       _score = score;
-      _rankNumber = rankNumber;
+      Email = email;
       _nickname = nickname;
    }
    
-   public Rank(RankDTO dto) : this(dto.Score, dto.RankNumber, dto.Nickname) { }
+   public Rank(RankDTO dto) : this(dto.Score, dto.Email, dto.Nickname) { }
    
    public RankDTO ToDTO()
    {
-      return new RankDTO(_score, _rankNumber, _nickname);
+      return new RankDTO(_score, Email, _nickname);
    }
 }

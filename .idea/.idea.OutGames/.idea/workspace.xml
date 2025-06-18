@@ -5,37 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="896549fd-2523-4841-8be4-18a7b65d5db5" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/00.Scenes/AttendanceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/00.Scenes/AttendanceScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/01.Script/Attendance/0.Data/AttendanceRewardSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Script/Attendance/0.Data/AttendanceRewardSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Tutorials/AddARoom/13-Spawn-Room.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Tutorials/AddARoom/13-Spawn-Room.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FPS/Tutorials/AddEnemyBot/015.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FPS/Tutorials/AddEnemyBot/015.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/CacheStorage/Editor/gpm_cachestorage_editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/CacheStorage/Editor/gpm_cachestorage_editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/CacheStorage/gpm_cachestorage.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/CacheStorage/gpm_cachestorage.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Common/Zip/WinzipAesCryptoStream.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Common/Zip/WinzipAesCryptoStream.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/FreqData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/FreqData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/Pointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/Pointer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/SEE2Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/SEE2Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/SubAllocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Compressors/PPMd/H/SubAllocator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Crypto/IBlockCipher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/ThirdParty/SharpCompress/Crypto/IBlockCipher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Common/gpm_common.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Common/gpm_common.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Manager/Data/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Manager/Data/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Manager/Editor/Constant/ManagerPaths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Manager/Editor/Constant/ManagerPaths.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/Manager/gpm_manager.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/Manager/gpm_manager.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Editor/XML/Language.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Editor/XML/Language.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Editor/gpm_ui_editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Editor/gpm_ui_editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Sample/gpm_ui_sample.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Sample/gpm_ui_sample.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/InfiniteScroll.ItemData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/InfiniteScroll.ItemData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/InfiniteScrollItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/InfiniteScrollItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/MultiLayout.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/MultiLayout.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/ScrollLayout.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/Scripts/ScrollLayout.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GPM/UI/gpm_ui.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPM/UI/gpm_ui.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Submodules/Pools/Pools.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Submodules/Pools/Pools.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OutGames/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OutGames/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Script/Ranking/1.Domain/Rank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Script/Ranking/1.Domain/Rank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Script/Ranking/1.Domain/RankDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Script/Ranking/1.Domain/RankDTO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Script/Ranking/2.Repo/RankRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Script/Ranking/2.Repo/RankRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Script/Ranking/3.Manager/RankManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Script/Ranking/3.Manager/RankManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/01.Script/Ranking/4.UI/RankUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/01.Script/Ranking/4.UI/RankUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_10_0.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_10_0.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/01.Script/Stage/1.Domain/Stage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Script/Stage/3.Manager/StageManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/01.Script/Stage/4.UI/StageUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/02.Prefabs/InfraStructure/FirebaseTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -69,7 +48,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Unity 에디터에 연결.Unity 에디터에 연결.executor&quot;: &quot;Debug&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6056604&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;StageRepository&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,15 +75,13 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20908">
+    <configuration name="Unity 에디터에 연결" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20908" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -135,6 +112,8 @@
       <updated>1750034784851</updated>
       <workItem from="1750034797591" duration="28000" />
       <workItem from="1750034837862" duration="22074000" />
+      <workItem from="1750207027575" duration="12926000" />
+      <workItem from="1750226509595" duration="3859000" />
     </task>
     <servers />
   </component>
