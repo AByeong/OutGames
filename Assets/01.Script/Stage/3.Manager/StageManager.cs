@@ -41,7 +41,8 @@ private StageRepo _stageRepo = new StageRepo();
       else
       {
          _stage = new Stage(_stageRepo.Load());
-         _timer = _stage.CurrentStageLevel[]
+         _timer = 0;
+
       }
       
       
